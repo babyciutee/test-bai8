@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 960px;
+    margin: 10px auto;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    line-height: 45px;
+    height: 45px;
+    background-color: orange;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 15px;
+}
+
+nav ul a:hover {
+    background-color: #fff;
+    color: orange;
+}
+
+nav ul {
+    float: left;
+}
+
+nav form {
+    float: right;
+    padding-right: 15px;
+}
+
+nav form input {
+    border: none;
+    height: 20px;
+}
+
+nav form button {
+    border: none;
+}
+
+nav form button:hover {
+    color: white;
+    background-color: grey;
+}
+
+.banner img {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.news_hot img {
+    width: 49%;
+    margin-right: 15px;
+    float: left;
+}
+
+.row {
+    margin-left: -8px;
+}
+
+.col {
+    width: 33.3%;
+    float: left;
+}
+
+.col .news {
+    padding: 5px;
+    margin: 10px 8px;
+    border: 1px solid grey;
+}
+
+.new img {
+    width: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    background-color: orange;
+    width: 100%;
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+
+}
